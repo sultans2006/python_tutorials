@@ -1,6 +1,6 @@
 from funcs import get_welcome_msg
 
-print(get_welcome_msg("Omar", 12))
+print(get_welcome_msg("Omar", "Constultant"))
 
 """
 import time
