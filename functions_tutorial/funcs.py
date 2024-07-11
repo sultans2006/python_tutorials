@@ -13,7 +13,7 @@ def get_welcome_msg(employee_name: str, role: str) -> str:
       Returns:
       str: A welcome message for the new employee
       """
-    time.sleep(3)
+    # time.sleep(3)
     welcome_message = f"Welcome {employee_name}! We're excited to have you on this role: {role}. Your joining time is: {time.strftime('%Y-%m-%d %H:%M:%S')}"
     return welcome_message
 
